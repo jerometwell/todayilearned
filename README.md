@@ -17,3 +17,7 @@ If anyone wants to laugh at me here, my defense is that I'd only ever interacted
   
 #### jest resetMocks will reset manual "__mocks__" entirely
 clearMocks is what you want - but it was a surprise to find that the `__mocks__` features was getting completely obliterated on every test. It makes sense in retrospect: the mock is being set up in the `__mocks__` implementation. But I guess i assumed they would be treated differently.
+
+## Uncategorized
+#### Algorithmia uses `rjson` to serialize objects
+https://algorithmia.com/developers/algorithm-development/languages/r#io-for-your-algorithms
