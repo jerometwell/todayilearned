@@ -21,3 +21,7 @@ clearMocks is what you want - but it was a surprise to find that the `__mocks__`
 ## Uncategorized
 #### Algorithmia uses `rjson` to serialize objects
 https://algorithmia.com/developers/algorithm-development/languages/r#io-for-your-algorithms
+
+#### /tmp on a custom runtime is not a place to store things during build
+
+#### custom runtimes in lambda run as a different user (unpriviledged)
